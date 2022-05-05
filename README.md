@@ -54,3 +54,7 @@ Edit pages/index.js and see the updated result in your browser
 `nested routing`
 - to make a nested route we should create a folder with the same name as the root route. then root route name should be index.js. then create others file and it will make automatically available as a route
 - users/first.... users/second.......
+
+`useRouter hook dynamic routing`
+- make a file [filename].js and keep it root folder.
+- make a function and using useRouter hook we can get the endpoint from the browser.
