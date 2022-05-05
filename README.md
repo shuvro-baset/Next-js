@@ -41,3 +41,16 @@ After the installation is complete:
 Run npm run dev or yarn dev or pnpm dev to start the development server on http://localhost:3000
 Visit http://localhost:3000 to view your application
 Edit pages/index.js and see the updated result in your browser
+
+
+# `ReactJs Routing`
+- file based routing
+- After creating a new file in the pages folder it automatically becomes available as a route
+- By mixing and matching file names with a nested folder, it is possible to define the most common routing pattern
+
+`file/page based routing`
+- just create a file in the pages folder and it will make automatically available as a route by the file name
+
+`nested routing`
+- to make a nested route we should create a folder with the same name as the root route. then root route name should be index.js. then create others file and it will make automatically available as a route
+- users/first.... users/second.......
