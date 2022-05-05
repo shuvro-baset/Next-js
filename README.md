@@ -56,5 +56,8 @@ Edit pages/index.js and see the updated result in your browser
 - users/first.... users/second.......
 
 `useRouter hook dynamic routing`
-- make a file [filename].js and keep it root folder.
+- make a file [filename].js 'userId' and keep it root folder.
 - make a function and using useRouter hook we can get the endpoint from the browser.
+- If we need to nested more in this nested route. then we will make a directory [userId] and delete previous 'userId' file. in this new directory make a file index.js or any name and paste the previous code. to make nested here create a directory 'name' do the same thing for nested as previous route.
+- users/userId/order/orderId
+
