@@ -61,3 +61,11 @@ Edit pages/index.js and see the updated result in your browser
 - If we need to nested more in this nested route. then we will make a directory [userId] and delete previous 'userId' file. in this new directory make a file index.js or any name and paste the previous code. to make nested here create a directory 'name' do the same thing for nested as previous route.
 - users/userId/order/orderId
 
+`Link`
+- import Link from 'next/Link'
+- user Link component and under the href attribute define the route path
+- example: <br />
+    <Link href="/users"> <br />
+        <a>Users List</a> 
+    </Link> <br />
+
