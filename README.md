@@ -68,4 +68,20 @@ Edit pages/index.js and see the updated result in your browser
     <Link href="/users"> <br />
         <a>Users List</a> 
     </Link> <br />
+- using useRouter.push we can go another route when any eventHandler worked. call a function and under this function call useRouter.push('/path')
 
+`404 page not found`
+- by default nextJs provide not found page.
+- we can customize the default not found page using 404.js file. in this file we can use our own not found page.
+
+
+`Pre-Rendering and fetching data`
+- two types
+    - 1. Static Generation
+    - 2. Server-Side Rendering
+    `Static Generation`
+        - it's a method of pre rendering where HTML pages are generated at a build time.
+        - The HTML will contain all the website data after we build the application
+        - it's a recommended method to pre-render pages whenever possible.
+        - The page is built once, cached by a cdn and served to the client almost instantly
+        - blog pages, e-commerce, documentation.... 
