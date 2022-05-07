@@ -85,3 +85,33 @@ Edit pages/index.js and see the updated result in your browser
         - it's a recommended method to pre-render pages whenever possible.
         - The page is built once, cached by a cdn and served to the client almost instantly
         - blog pages, e-commerce, documentation.... 
+
+
+`Static Props`
+- make a async function and fetch api data. 
+- return the data in a object and it will pass as a props into the component
+
+`getStaticProps`
+- getStaticProps is a server side function
+- The function will never run on client side
+- The code inside getStaticProps will never be include inside the build JS bundle
+- we can write server-side code directly in getStaticProps
+- we can access the fs(file system) method or querying a database can be done inside getStaticProps
+- we can use getStaticProps only in the pages file. we can not use getStaticProps in components file
+
+`getStaticPaths`
+- for dynamic route for unlimited data we should use getStaticPaths() and pass all the id.
+- call the API and store data then make a map function and return all the id as props.
+
+    `Server Side Rendering`
+        - NextJs allows us to pre-render a page in not build time but in request time
+        - The HTML is generated for every request depending on the data
+        - only run when user requests
+
+`API Routes`
+- NextJs is a full stack framework where we write front end code in react and also write APIs that can be called by the front end
+- API routes allows us to create REST endpoints as part of our NextJs application folder structure.
+- We have to create a folder "api" within pages folder
+- Within "api" folder we can define all the API for our application
+- We can add business logic without needing to write any additional custom server code and without having to configure any API routes
+- NextJs provides use everything we need to write full stack React+Node application
