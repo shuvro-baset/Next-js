@@ -115,3 +115,11 @@ Edit pages/index.js and see the updated result in your browser
 - Within "api" folder we can define all the API for our application
 - We can add business logic without needing to write any additional custom server code and without having to configure any API routes
 - NextJs provides use everything we need to write full stack React+Node application
+
+`Head tag title meta tags `
+- nextJs provide default Header meta .. tags. we can customize it calling these components from nextJs 
+
+`image component`
+- it makes image loading efficient
+- it will load the image size as describe in the style
+- when we scroll then that particular image will be loaded.
