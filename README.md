@@ -1,10 +1,17 @@
 # `Next-js`
-* it's a ReactJs framework
+* it's a ReactJs framework for production.
+* A fullstack framework for ReactJs
 * it's written in React code(like props, components etc)
 * Next.Js provides us with own employment with a lot of features to make it easy and fast for us to work.
 * we can also use third party apps but Next.Js provides us with almost all features in-built
 * Next.Js helps us create production ready apps
 * hybrid apps. code once and optimize for all sorts of devices easily.
+* NextJs solves common problems and makes building React apps easier.
+
+`key-features`
+* server-side-rendering
+* file-based Routing
+* fullstack capabilities
 
 `Special Ability of Next.Js`
 * Next.Js enables us to build super fast and extremely user-friendly status and dynamic websites, as well as full fledged production ready web applications using ReactJs
