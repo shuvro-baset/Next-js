@@ -76,6 +76,10 @@ Edit pages/index.js and see the updated result in your browser
         <a>Users List</a> 
     </Link> <br />
 - using useRouter.push we can go another route when any eventHandler worked. call a function and under this function call useRouter.push('/path')
+- router.push({
+    pathname: '';
+})
+- router.replace()
 
 `404 page not found`
 - by default nextJs provide not found page.
