@@ -108,7 +108,21 @@ Edit pages/index.js and see the updated result in your browser
 - The code inside getStaticProps will never be include inside the build JS bundle
 - we can write server-side code directly in getStaticProps
 - we can access the fs(file system) method or querying a database can be done inside getStaticProps
-- we can use getStaticProps only in the pages file. we can not use getStaticProps in components file
+- we can use getStaticProps only in the pages file. we can not use getStaticProps in components file.
+
+* Example:
+    export async function getStaticProps() { <br />
+        const filePath = path.join(process.cwd(), 'data- folder', 'file-name.json');  <br />
+        const jsonData = await fs.readFile(filePath); <br />
+        const data = JSON.parse(jsonData); <br />
+
+        return {   <br />
+            props: { <br
+                products: data.products;
+            }
+        }
+    }
+
 
 `getStaticPaths`
 - for dynamic route for unlimited data we should use getStaticPaths() and pass all the id.
