@@ -159,4 +159,7 @@ Edit pages/index.js and see the updated result in your browser
 - it will load the image size as describe in the style
 - when we scroll then that particular image will be loaded.
 
-``
+`useSWR`
+- Stale-while-revalidation
+- it's a hook alternative of useEffect hook. made by nextJs developer with some more features.
+- https requests, caching, revalidation and so on.
