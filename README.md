@@ -111,6 +111,12 @@ Edit pages/index.js and see the updated result in your browser
 - we can write server-side code directly in getStaticProps
 - we can access the fs(file system) method or querying a database can be done inside getStaticProps
 - we can use getStaticProps only in the pages file. we can not use getStaticProps in components file.
+- ISR: Incremental Static Generator
+- revalidation property for waiting the generator in seconds.
+- notFound: true property when data is not found.
+- dynamic router pre render using getStaticProps and pass the context. within this context it has key value pair with params that will contain the dynamic identifier.
+- when dynamic pages are rendered the pre generator not applied. 
+- fallback: false / true/ blocking. if use blocking then no need to use getStaticPaths. its better to use blocking.
 
 * Example:
     export async function getStaticProps() { <br />
@@ -134,6 +140,8 @@ Edit pages/index.js and see the updated result in your browser
         - NextJs allows us to pre-render a page in not build time but in request time
         - The HTML is generated for every request depending on the data
         - only run when user requests
+        - no need to pre generate the page 
+        - no need getStaticPaths() method
 
 `API Routes`
 - NextJs is a full stack framework where we write front end code in react and also write APIs that can be called by the front end
@@ -150,3 +158,5 @@ Edit pages/index.js and see the updated result in your browser
 - it makes image loading efficient
 - it will load the image size as describe in the style
 - when we scroll then that particular image will be loaded.
+
+``
