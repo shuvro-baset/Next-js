@@ -163,3 +163,4 @@ Edit pages/index.js and see the updated result in your browser
 - Stale-while-revalidation
 - it's a hook alternative of useEffect hook. made by nextJs developer with some more features.
 - https requests, caching, revalidation and so on.
+- 
