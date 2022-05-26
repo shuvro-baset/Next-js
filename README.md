@@ -164,3 +164,11 @@ Edit pages/index.js and see the updated result in your browser
 - it's a hook alternative of useEffect hook. made by nextJs developer with some more features.
 - https requests, caching, revalidation and so on.
 - 
+
+`_documents.js`
+- uses for change document object model
+- import Document from 'next/Document'
+- class MyDocument extends Document {.........} 
+
+`Next/Image` 
+- user NextImage component for image optimization
