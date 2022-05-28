@@ -172,3 +172,4 @@ Edit pages/index.js and see the updated result in your browser
 
 `Next/Image` 
 - user NextImage component for image optimization
+- set width and height
