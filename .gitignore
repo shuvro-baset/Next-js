@@ -2,6 +2,10 @@
 
 # dependencies
 /first/node_modules
+/event/node_modules
+/nextjs-course-code/node_modules
+/portfolio/node_modules
+
 /.pnp
 .pnp.js
 
