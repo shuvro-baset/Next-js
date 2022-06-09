@@ -6,7 +6,7 @@ const Sidebar = () => {
         alt=""
       />
       <h3>
-        <span>Shuvro</span>
+        <span>shuvro baset</span>
       </h3>
       <p>Software Engineer</p>
       <p>Download Resume</p>
