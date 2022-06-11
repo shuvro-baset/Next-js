@@ -10,6 +10,18 @@ const Sidebar = () => {
       </h3>
       <p>Software Engineer</p>
       <p>Download Resume</p>
+
+      {/* social icon  */}
+
+      {/* address */}
+      <div>
+        <div>
+          <span>Dhaka, Bangladesh</span>
+        </div>
+        <p>shuvro.aps.75@gmail.com</p>
+        <p>+8801673841675</p>
+        <button>Email Me</button>
+      </div>
     </div>
   );
 };
