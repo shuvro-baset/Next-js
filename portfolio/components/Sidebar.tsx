@@ -42,7 +42,7 @@ const Sidebar = () => {
           <span> Dhaka, Bangladesh</span>
         </div>
         <p className="my-2">shuvro.aps.75@gmail.com</p>
-        <p className="my-2">+8801673841675</p>
+        <p className="my-2">+88016-73841675</p>
       </div>
       <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400">
         Email Me
