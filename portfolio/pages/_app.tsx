@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       </div>
       <div className="col-span-12 bg-white lg:col-span-9 rounded-2xl">
         <Component {...pageProps} />
+        {/* ldl */}
       </div>
     </div>
   );
