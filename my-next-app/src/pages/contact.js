@@ -1,4 +1,5 @@
 import React from 'react';
+import RootLayout from '../components/Layouts/RootLayout';
 
 const contact = () => {
     return (
@@ -9,3 +10,11 @@ const contact = () => {
 };
 
 export default contact;
+
+contact.getLayout = function getLayout(page) {
+    return (
+        <RootLayout>
+            {page}
+        </RootLayout>
+    )
+}
